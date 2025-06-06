@@ -17,7 +17,8 @@ Number of terms: 5
 Given array is: 1 3 2 4 5  
 The target value is: 6  
 Pair is: (1,3)  
-Pair is: (1,2)  
+Pair is: (1,2) 
+Pair is: (1,4)
 ...  
 The pair which sum is equal to 6 is (2,4)  
 The indexes of numbers of the pair are 2 and 3
