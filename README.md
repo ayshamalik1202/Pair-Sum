@@ -12,7 +12,7 @@ This is a simple C++ program that finds all pairs of numbers in a given array, f
 2. Load your Pair_Sum.cpp file.
 3. Click Build and Run.
 4. Input values in the console.
-Sample Output:
+## Sample Output:
 Number of terms: 5  
 Given array is: 1 3 2 4 5  
 The target value is: 6  
