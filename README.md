@@ -8,10 +8,19 @@ This is a simple C++ program that finds all pairs of numbers in a given array, f
 5. Highlights the pairs that match the target.
 6. Show the indexes of the elements of the pair.
 ## How to run:
-1. Open Code::Blocks.
+1. Use a C++ compiler like g++ or Code::Blocks.
 2. Load your Pair_Sum.cpp file.
-3. Click Build and Run.
-4. Input values in the console.
+3. In VS.code compile the file: 'g++ Pair_Sum.cpp -o Pair_Sum'.
+4. For Code::Blocks click Build and Run. Then input values in the console.
+5. In VS.code run the code:'./Pair_Sum' for (Linux/mac) or 'Pair_Sum.exe' for (Windows).
+## Code Snippet:
+for(int i = 0; i < N; i++) {
+    for(int j = i + 1; j < N; j++) {
+        if(vec[i] + vec[j] == target_value) {
+            cout << "Pair: (" << vec[i] << "," << vec[j] << ")";
+        }
+    }
+}
 ## Sample Output:
 Number of terms: 5  
 Given array is: 1 3 2 4 5  
